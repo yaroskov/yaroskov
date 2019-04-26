@@ -4,27 +4,27 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "e416761dc147b87d8f5339570e247ac6",
+    "content-hash": "13d6d95b63f1f498fd10f9333a9c5ca5",
     "packages": [
         {
             "name": "yaroskov/data",
-            "version": "v1.0.11-stable",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/yaroskov/data.git",
-                "reference": "1a031a3cb85645481bd57092de7eb0d20e5bf145"
+                "reference": "09496a80b6a06eec76ec283590fb306eb435be5e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yaroskov/data/zipball/1a031a3cb85645481bd57092de7eb0d20e5bf145",
-                "reference": "1a031a3cb85645481bd57092de7eb0d20e5bf145",
+                "url": "https://api.github.com/repos/yaroskov/data/zipball/09496a80b6a06eec76ec283590fb306eb435be5e",
+                "reference": "09496a80b6a06eec76ec283590fb306eb435be5e",
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.2"
+                "php": ">=7.0"
             },
             "require-dev": {
-                "php": ">=7.2"
+                "php": ">=7.0"
             },
             "type": "library",
             "autoload": {
@@ -44,7 +44,7 @@
                 }
             ],
             "description": "This is a data handler package",
-            "time": "2019-01-18T09:08:05+00:00"
+            "time": "2019-04-26T14:20:58+00:00"
         },
         {
             "name": "yaroskov/resource",
@@ -52,20 +52,20 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yaroskov/resource.git",
-                "reference": "524f273f8fa4b370284616fd21eef9d1a4bf36d9"
+                "reference": "d4ee654be88e4b1c2a40d11c9c6aac8e04f5d1d2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yaroskov/resource/zipball/524f273f8fa4b370284616fd21eef9d1a4bf36d9",
-                "reference": "524f273f8fa4b370284616fd21eef9d1a4bf36d9",
+                "url": "https://api.github.com/repos/yaroskov/resource/zipball/d4ee654be88e4b1c2a40d11c9c6aac8e04f5d1d2",
+                "reference": "d4ee654be88e4b1c2a40d11c9c6aac8e04f5d1d2",
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.2",
+                "php": ">=7.0",
                 "yaroskov/data": ">=1.0.0-stable"
             },
             "require-dev": {
-                "php": ">=7.2"
+                "php": ">=7.0"
             },
             "type": "library",
             "autoload": {
@@ -85,14 +85,15 @@
                 }
             ],
             "description": "A package that receives data from third-party resources",
-            "time": "2019-01-18T09:15:57+00:00"
+            "time": "2019-04-26T14:07:03+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "yaroskov/resource": 20
+        "yaroskov/resource": 20,
+        "yaroskov/data": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
