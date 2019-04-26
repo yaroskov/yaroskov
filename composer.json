@@ -1,0 +1,14 @@
+{
+    "require": {
+        "yaroskov/resource": "@dev"
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "https://github.com/yaroskov/yaroskov",
+            "options": {
+                "symlink": true
+            }
+        }
+    ]
+}
