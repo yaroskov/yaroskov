@@ -1,0 +1,22 @@
+{
+    "require": {
+        "yaroskov/resource": "@dev",
+        "yaroskov/data": "@dev"
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "https://github.com/yaroskov/resource",
+            "options": {
+                "symlink": true
+            }
+        },
+        {
+            "type": "path",
+            "url": "https://github.com/yaroskov/data",
+            "options": {
+                "symlink": true
+            }
+        }
+    ]
+}

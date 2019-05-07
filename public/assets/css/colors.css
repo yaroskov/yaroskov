@@ -1,0 +1,23 @@
+.color-primary {
+    color: #c71c5c;
+}
+
+.color-light {
+    color: #eaeff5;
+}
+
+.color-dark {
+    color: #505050;
+}
+
+.bg-color-primary {
+    background-color: #c71c5c;
+}
+
+.bg-color-light {
+    background-color: #eaeff5;
+}
+
+.bg-color-dark {
+    color: #505050;
+}

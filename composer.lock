@@ -1,0 +1,102 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "13d6d95b63f1f498fd10f9333a9c5ca5",
+    "packages": [
+        {
+            "name": "yaroskov/data",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yaroskov/data.git",
+                "reference": "09496a80b6a06eec76ec283590fb306eb435be5e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yaroskov/data/zipball/09496a80b6a06eec76ec283590fb306eb435be5e",
+                "reference": "09496a80b6a06eec76ec283590fb306eb435be5e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0"
+            },
+            "require-dev": {
+                "php": ">=7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Yaroskov\\Data\\": "src/",
+                    "Yaroskov\\Data\\Components\\": "src/Components/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-only"
+            ],
+            "authors": [
+                {
+                    "name": "Yaroslav Kovalev",
+                    "email": "yaroskov@yandex.ru"
+                }
+            ],
+            "description": "This is a data handler package",
+            "time": "2019-04-26T14:20:58+00:00"
+        },
+        {
+            "name": "yaroskov/resource",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yaroskov/resource.git",
+                "reference": "d4ee654be88e4b1c2a40d11c9c6aac8e04f5d1d2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yaroskov/resource/zipball/d4ee654be88e4b1c2a40d11c9c6aac8e04f5d1d2",
+                "reference": "d4ee654be88e4b1c2a40d11c9c6aac8e04f5d1d2",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0",
+                "yaroskov/data": ">=1.0.0-stable"
+            },
+            "require-dev": {
+                "php": ">=7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Yaroskov\\Resource\\": "src/",
+                    "Yaroskov\\Resource\\Components\\": "src/Components/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-only"
+            ],
+            "authors": [
+                {
+                    "name": "Yaroslav Kovalev",
+                    "email": "yaroskov@yandex.ru"
+                }
+            ],
+            "description": "A package that receives data from third-party resources",
+            "time": "2019-04-26T14:07:03+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "yaroskov/resource": 20,
+        "yaroskov/data": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

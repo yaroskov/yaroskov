@@ -1,0 +1,42 @@
+.block {
+    display: flex;
+    justify-content: center;
+}
+
+.block_header {
+    background-color: #c71c5c;
+    color: white;
+}
+
+/*.block_color-1 {*/
+/*    background-color: #eaeff5;*/
+/*}*/
+
+/*.block_color-2 {*/
+/*    background-color: #dce4ec;*/
+/*}*/
+
+.block__content {
+    width: 600px;
+    padding: 12px 0;
+}
+
+.block__content_header {
+    padding: 4px 0;
+}
+
+.title-1 {
+
+}
+
+.title-2 {
+    margin-bottom: 10px;
+}
+
+.list {
+    list-style-type: none;
+}
+
+.list li {
+    margin-bottom: 2px;
+}
