@@ -8,7 +8,7 @@
 
                     <?php $link = '';
                     if(isset($menuEl['link'])) {
-                        $link = '/?section=' . $item['section']
+                        $link = '/?clean=true&section=' . $item['section']
                             . '&page=' . $menuEl['link']
                             . '&title=' . $menuEl['title'];
                     } ?>

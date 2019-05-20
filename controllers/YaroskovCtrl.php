@@ -2,7 +2,6 @@
 
 class YaroskovCtrl
 {
-
     public $data = [
         'title' => 'yaroskov',
         'email' => 'yaroskov@yandex.ru',

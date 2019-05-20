@@ -1,7 +1,8 @@
 {
     "require": {
         "yaroskov/resource": "@dev",
-        "yaroskov/data": "@dev"
+        "yaroskov/data": "@dev",
+        "twig/twig": "^2.0"
     },
     "repositories": [
         {
